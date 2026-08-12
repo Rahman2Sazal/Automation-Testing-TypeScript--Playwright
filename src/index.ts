@@ -2,3 +2,7 @@ console.log("Hello, TypeScript!");
 
 let age: number = 25;
 let name1: string = "John Doe";
+
+if (age > 18) {
+    console.log(`${name1} is an adult.`);
+}
