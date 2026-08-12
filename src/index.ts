@@ -6,3 +6,6 @@ let name1: string = "John Doe";
 if (age > 18) {
     console.log(`${name1} is an adult.`);
 }
+setTimeout(() => {
+  console.log("Program finished.");
+},3000);
