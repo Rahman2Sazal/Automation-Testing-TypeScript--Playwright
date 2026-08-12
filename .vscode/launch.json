@@ -5,7 +5,9 @@
       "name": "Debug TypeScript app",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceFolder}/dist/index.js",
+    "program": "${workspaceFolder}/dist/variablesPractice.js",
+    
+      //"program": "${workspaceFolder}/dist/index.js",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
