@@ -5,8 +5,8 @@
       "name": "Debug TypeScript app",
       "type": "node",
       "request": "launch",
-    "program": "${workspaceFolder}/dist/variablesPractice.js",
-    
+      // "program": "${workspaceFolder}/dist/variablesPractice.js",
+      "program": "${workspaceFolderBasename}/dist/arrays.js",
       //"program": "${workspaceFolder}/dist/index.js",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
