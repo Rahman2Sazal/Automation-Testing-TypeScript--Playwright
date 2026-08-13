@@ -2,11 +2,25 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/app.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
       "name": "Debug TypeScript app",
       "type": "node",
       "request": "launch",
       // "program": "${workspaceFolder}/dist/variablesPractice.js",
-      "program": "${workspaceFolderBasename}/dist/arrays.js",
+      "program": "${workspaceFolder}/dist/arrays.js",
       //"program": "${workspaceFolder}/dist/index.js",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
