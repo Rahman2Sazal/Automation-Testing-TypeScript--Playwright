@@ -21,6 +21,7 @@
       "request": "launch",
       // "program": "${workspaceFolder}/dist/variablesPractice.js",
       //"program": "${workspaceFolder}/dist/arrays.js",
+      //"program": "${workspaceFolder}/dist/arrays.js",
       //"program": "${workspaceFolder}/dist/index.js",
       //"program": "${workspaceFolder}/dist/toppletest.js",
       "program": "${workspaceFolder}/dist/enumTests.js",
