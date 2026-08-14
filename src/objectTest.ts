@@ -28,4 +28,6 @@ console.log(employee);
 This line will cause a compilation error because 'id' is a readonly property*/
 employee.salary = 75000; // Adding a new property
 employee.setRetiredate(employee.retiredate); // Calling the setRetiredate method
+//  this will set the same value it already has
 console.log(employee);
+
